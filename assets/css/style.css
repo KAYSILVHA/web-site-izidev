@@ -365,7 +365,7 @@ button {
   width: 75vw;
   border-radius: 1rem;
   height: 400px;
-  background-image: url('../images/banner_final.png');
+  background-image: url('https://i.postimg.cc/brvMpSN4/banner-final.png');
   background-size: cover;
   background-repeat: no-repeat;
   top: 10rem;
@@ -478,6 +478,12 @@ footer p {
   .custom-main-section-four .float-container-one .img,
   .custom-main-section-six .float-container-two .img {
     width: 12rem;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .custom-main-section-six .float-container-two img {
+    width: 28rem;
   }
 }
 
@@ -624,7 +630,7 @@ footer p {
   .custom-section-seven-content {
     position: relative;
     top: 20vh;
-    padding: 10vh 0;
+    padding: 5vh 0 10vh;
   }
 
   .custom-section-four-content {
@@ -642,6 +648,42 @@ footer p {
   .custom-footer-section-one {
     gap: 5vh;
     margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .contact {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .fs-md-1.text-center.text-md-center.text-lg-start.fw-normal.text-sm-center.custom-font-size-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  .custom-section-header-two button {
+    font-size: 15px;
+  }
+
+  .custom-section-header-two img {
+    width: 2rem;
+  }
+
+  .info h2 {
+    font-size: 2.4rem;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+
+  .section-two-custom-info.two div:first-child {
+    margin-left: 0;
   }
 }
 
@@ -687,42 +729,6 @@ footer p {
 
   .custom-main-section-four .float-container-one img {
     width: 23rem;
-  }
-}
-
-@media screen and (min-width: 1199px) {
-  .contact {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .fs-md-1.text-center.text-md-center.text-lg-start.fw-normal.text-sm-center.custom-font-size-paragraph {
-    font-size: 1.2rem;
-  }
-
-  .contact {
-    font-size: 20px;
-  }
-
-  .custom-section-header-two button {
-    font-size: 15px;
-  }
-
-  .custom-section-header-two img {
-    width: 2rem;
-  }
-
-  .info h2 {
-    font-size: 2.4rem;
-  }
-
-  .info p {
-    font-size: 16px;
-  }
-
-  .section-two-custom-info.two div:first-child {
-    margin-left: 0;
   }
 }
 
