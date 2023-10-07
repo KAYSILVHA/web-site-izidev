@@ -1,3 +1,25 @@
+/*Animacoes*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-element {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out; 
+  animation-fill-mode: forwards;
+}
+
+.animated-element.active {
+  animation-play-state: running;
+}
+
 /*header*/
 header {
   height: auto;
