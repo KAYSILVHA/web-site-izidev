@@ -407,7 +407,8 @@ footer p {
   font-size: 11px;
 }
 
-/*Animacoes*/
+/*Animações*/
+
 @keyframes animacaoScroll {
   0% {
       opacity: 0;
