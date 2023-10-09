@@ -409,7 +409,13 @@ footer p {
 
 /*Animações*/
 
-@keyframes animacaoScroll {
+.elemento {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: animacao-elemento 1s ease-in-out forwards;
+}
+
+@keyframes animacao-elemento {
   0% {
       opacity: 0;
       transform: translateY(30px);
@@ -420,15 +426,8 @@ footer p {
   }
 }
 
-.elemento {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.elemento.ativo {
-  opacity: 1;
-  transform: translateY(0);
+.animado {
+  animation-play-state: running;
 }
 
 /*media queries*/
