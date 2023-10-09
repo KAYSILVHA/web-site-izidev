@@ -1,6 +1,6 @@
 header {
   height: auto;
-  background-image: url('https://i.postimg.cc/fbBfZ2tT/imagem-header.png');
+  background-image: url('../images/imagem-header.png');
   background-position: center;
   background-size: cover;
 }
@@ -380,7 +380,7 @@ button {
   width: 75vw;
   border-radius: 1rem;
   height: 400px;
-  background-image: url('https://i.postimg.cc/brvMpSN4/banner-final.png');
+  background-image: url('../images/banner-final.png');
   background-size: cover;
   background-repeat: no-repeat;
   top: 10rem;
