@@ -33,7 +33,6 @@ header .custom-font-size-title {
   font-weight: 500;
 }
 
-
 .nav-item:hover {
   box-shadow: #00ffd53d 0px 14px 28px, #00ffd51a 0px 10px 10px;
 }
@@ -365,7 +364,6 @@ button {
   padding: 10vh 0 0;
   gap: 2rem;
 }
-
 
 .custom-main-section-seven .float-container-three h2 {
   font-size: calc(1.6rem + 3vw);
