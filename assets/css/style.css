@@ -352,7 +352,6 @@ button {
   bottom: 5rem;
   gap: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  z-index: 1000;
 }
 
 .custom-main-section-seven {
@@ -367,9 +366,6 @@ button {
   gap: 2rem;
 }
 
-.custom-main-section-seven .float-container-three {
-  z-index: 1000;
-}
 
 .custom-main-section-seven .float-container-three h2 {
   font-size: calc(1.6rem + 3vw);
