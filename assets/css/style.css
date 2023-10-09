@@ -31,8 +31,9 @@ header .custom-font-size-title {
   height: 30px;
   border-radius: 2rem;
   background-color: #00ffd3;
-  font-weight: 700;
+  font-weight: 500;
 }
+
 
 .nav-item:hover {
   box-shadow: #00ffd53d 0px 14px 28px, #00ffd51a 0px 10px 10px;
@@ -40,10 +41,11 @@ header .custom-font-size-title {
 
 .nav-item a {
   color: #0e1c39;
+  font-size: 700;
 }
 
-.custom-toggler-icon {
-  background-color: #00ffd3;
+a.nav-link{
+  font-weight: 800;
 }
 
 .nav-bar {
@@ -92,7 +94,7 @@ button {
   padding: 15px 20px;
   background-color: #00ffd3;
   color: #0e1c39;
-  font-weight: 900;
+  font-weight: 800;
   border: none;
 }
 
@@ -159,7 +161,7 @@ button {
 }
 
 .custom-main-section-two p {
-  width: 75%;
+  width: 85%;
 }
 
 .custom-main-section-two .line {
@@ -267,7 +269,7 @@ button {
 
 .button {
   width: auto;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .custom-float-container-one-text h2 {
@@ -497,19 +499,11 @@ footer p {
 }
 
 @media screen and (max-width: 991px) {
+
   .nav-item {
     background-color: transparent;
     width: 100%;
   }
-
-  .navbar-nav {
-    background-color: #00ffd370;
-  }
-
-  .nav-item a {
-    color: white;
-  }
-
   .nav-item:hover {
     box-shadow: none;
   }
@@ -525,7 +519,7 @@ footer p {
   }
 
   .custom-main-section-two {
-    top: 4rem;
+    top: 3rem;
     bottom: 0;
     gap: 3rem;
     margin-bottom: 9rem;
