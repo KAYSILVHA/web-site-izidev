@@ -6,7 +6,7 @@ header {
   background-size: cover;
 }
 
-header .img-fluid {
+header .navbar-brand img {
   width: 12rem;
   filter: invert(100%);
 }
@@ -115,6 +115,10 @@ button {
 .contact {
   gap: 10px;
 }
+.contact a{
+  text-decoration: none;
+  color: white;
+}
 
 /*Main*/
 
@@ -142,7 +146,7 @@ button {
 .custom-main-section-six h2,
 .custom-section-seven-content h2 {
   color: #0e1c39;
-  font-size: calc(1.6rem + 1vw);
+  font-size: calc(1.6rem + 1.2vw);
 }
 
 .custom-main-section-two p,
@@ -175,7 +179,7 @@ button {
   font-size: 3rem;
 }
 
-.custom-section-three-text{
+.custom-section-three-text {
   gap: 10px;
   color: #0e1c39;
 }
@@ -353,7 +357,7 @@ button {
   gap: 2rem;
 }
 
-.custom-main-section-seven .float-container-three{
+.custom-main-section-seven .float-container-three {
   z-index: 1000;
 }
 
@@ -502,7 +506,7 @@ footer p {
     background-color: #00ffd370;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: white;
   }
 
@@ -572,7 +576,7 @@ footer p {
     padding: 0;
   }
 
-  .custom-info-two{
+  .custom-info-two {
     flex-direction: column-reverse;
   }
 
@@ -649,7 +653,7 @@ footer p {
     justify-content: space-between;
   }
 
-  footer{
+  footer {
     height: auto;
   }
 
