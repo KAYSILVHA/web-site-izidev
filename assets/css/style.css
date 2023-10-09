@@ -521,13 +521,16 @@ footer p {
     width: 100%;
   }
 
-  .nav-item a {
+  .navbar-nav {
+    background-color: #00ffd370;
+  }
+
+  .nav-item a{
     color: white;
   }
 
-  .navbar-nav {
-    background-color: #00ffd380;
-
+  .nav-item:hover {
+    box-shadow: none;
   }
 
   .custom-main-section-one,
