@@ -1,4 +1,3 @@
-/*header*/
 header {
   height: auto;
   background-image: url('https://i.postimg.cc/fbBfZ2tT/imagem-header.png');
@@ -6,7 +5,7 @@ header {
   background-size: cover;
 }
 
-header .navbar-brand img {
+.navbar-brand img {
   width: 12rem;
   filter: invert(100%);
 }
@@ -21,7 +20,7 @@ header .custom-font-size-title {
   font-size: calc(1.625rem + 3vw);
 }
 
-.fs-md-1.text-center.text-md-center.text-lg-start.fw-normal.text-sm-center.custom-font-size-paragraph {
+.custom-font-size-paragraph {
   font-size: 1.5rem;
 }
 
@@ -39,13 +38,10 @@ header .custom-font-size-title {
   box-shadow: #00ffd53d 0px 14px 28px, #00ffd51a 0px 10px 10px;
 }
 
-.nav-item a {
+a.nav-link {
+  font-weight: 800;
   color: #0e1c39;
   font-size: 700;
-}
-
-a.nav-link{
-  font-weight: 800;
 }
 
 .nav-bar {
@@ -117,12 +113,11 @@ button {
 .contact {
   gap: 10px;
 }
-.contact a{
+
+.contact a {
   text-decoration: none;
   color: white;
 }
-
-/*Main*/
 
 .custom-main-section-one {
   height: 400px;
@@ -387,8 +382,6 @@ button {
   font-size: 18px;
 }
 
-/* footer */
-
 footer {
   height: 50vh;
   background-color: #0e1c39;
@@ -412,8 +405,6 @@ footer .logo {
 footer p {
   font-size: 11px;
 }
-
-/*media queries*/
 
 @media screen and (max-width: 767px) {
   header {
@@ -504,6 +495,7 @@ footer p {
     background-color: transparent;
     width: 100%;
   }
+
   .nav-item:hover {
     box-shadow: none;
   }
