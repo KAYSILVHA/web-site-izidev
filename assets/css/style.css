@@ -194,16 +194,7 @@ button {
   font-weight: 700;
 }
 
-.card-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-}
-
-.card.green,
-.card.blue {
+.card {
   height: 120px;
   font-weight: 600;
   font-size: 17px;
@@ -211,6 +202,7 @@ button {
   align-items: center;
   justify-content: center;
   border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .card.blue {
@@ -225,6 +217,18 @@ button {
   height: 118px;
 }
 
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .custom-main-section-four {
   background-color: #0e1c39;
   height: auto;
@@ -237,6 +241,10 @@ button {
 .number {
   color: #00ffd3;
   font-weight: 800;
+}
+
+.number:hover {
+  text-shadow: #00ffd528 0px 14px 28px, #00ffd51a 0px 10px 10px;
 }
 
 .custom-main-section-four .float-container-one {
@@ -263,10 +271,6 @@ button {
   padding: 20px;
 }
 
-.button {
-  width: auto;
-  font-weight: 800;
-}
 
 .custom-float-container-one-text h2 {
   font-size: 3rem;
