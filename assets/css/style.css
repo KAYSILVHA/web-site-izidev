@@ -94,8 +94,7 @@ button {
   border: none;
 }
 
-.button:hover,
-.custom-section-header-two img:hover {
+.button:hover {
   box-shadow: #00ffd53d 0px 14px 28px, #00ffd51a 0px 10px 10px;
 }
 
@@ -117,6 +116,10 @@ button {
 .contact a {
   text-decoration: none;
   color: white;
+}
+
+.contact a:hover {
+  text-shadow: #00ffd5be 0px 14px 28px, #00ffd51a 0px 10px 10px;
 }
 
 .custom-main-section-one {
