@@ -392,12 +392,13 @@ button {
 }
 
 footer {
-  height: 50vh;
+  height: auto;
   background-color: #0e1c39;
   padding: 50px 0;
 }
 
 footer .custom-footer-section-one {
+  margin-top: 10rem;
   height: 60%;
   gap: 40px;
 }
@@ -648,13 +649,9 @@ footer p {
     justify-content: space-between;
   }
 
-  footer {
-    height: auto;
-  }
-
   .custom-footer-section-one {
     gap: 5vh;
-    margin-top: 10vh;
+    margin-top: 0;
   }
 }
 
