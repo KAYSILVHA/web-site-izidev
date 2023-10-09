@@ -1,10 +1,25 @@
-// Usando JavaScript puro para acionar a animação quando a página é rolada
-window.addEventListener('scroll', function() {
-  var element = document.querySelector('.animated-element');
-  var elementPosition = element.getBoundingClientRect().top;
+function observarElementos(entries, observer) {
+  entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('ativo');
+      } else {
+          entry.target.classList.remove('ativo');
+      }
+  });
+}
 
-  // Verifique se o elemento está visível na tela
-  if (elementPosition < window.innerHeight) {
-    element.classList.add('active');
-  }
+const elementosObservados = document.querySelectorAll('.elemento');
+
+const observer = new IntersectionObserver(observarElementos, {
+  threshold: 0
+});
+
+elementosObservados.forEach((elemento) => {
+  observer.observe(elemento);
+});
+
+window.addEventListener('load', () => {
+  elementosObservados.forEach((elemento) => {
+      elemento.classList.remove('ativo');
+  });
 });
