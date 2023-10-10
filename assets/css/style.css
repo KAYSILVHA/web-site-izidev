@@ -481,7 +481,7 @@ footer p {
 
 @media screen and (max-width: 558px) {
   main {
-    gap: 30px;
+    gap: 20px;
   }
 
   .custom-main-section-six .float-container-two img {
@@ -678,7 +678,7 @@ footer p {
 
 @media screen and (min-width: 1580px) {
   section.custom-main-section-one {
-    padding: 0 12rem;
+    padding: 0 13rem;
   }
 }
 
