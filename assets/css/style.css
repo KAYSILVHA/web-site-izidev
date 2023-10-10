@@ -503,6 +503,10 @@ footer p {
   .custom-main-section-six .float-container-two .img {
     width: 12rem;
   }
+
+  .card p {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 658px) and (max-width: 991px) {
