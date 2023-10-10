@@ -70,7 +70,7 @@ a.nav-link {
 }
 
 span {
-  color: #00ffd3
+  color: #00ffd3;
 }
 
 ul {
@@ -132,14 +132,14 @@ button {
 .custom-main-section-one {
   height: 400px;
   background-color: #F7F7F7;
+  padding: 5rem;
 }
 
 .custom-main-section-two {
+  background-color: transparent;
   position: relative;
   gap: 2rem;
   bottom: 6rem;
-  background-color: transparent;
-
 }
 
 .custom-main-section-two img {
@@ -179,8 +179,17 @@ button {
   gap: 20px;
 }
 
+.section-two-custom-info-two {
+  padding: 48px;
+}
+
 .section-two-custom-info-two div:first-child {
   margin-left: 40px;
+}
+
+.custom-main-section-three {
+  gap: 5vh;
+  margin-bottom: 15rem;
 }
 
 .custom-main-section-three h2 {
@@ -190,11 +199,6 @@ button {
 .custom-section-three-text {
   gap: 10px;
   color: #0e1c39;
-}
-
-.custom-main-section-three {
-  margin-bottom: 15rem;
-  gap: 5vh;
 }
 
 .bg-color {
@@ -282,7 +286,6 @@ button {
   padding: 20px;
 }
 
-
 .custom-float-container-one-text h2 {
   font-size: 3rem;
   width: 95%;
@@ -316,7 +319,7 @@ button {
 }
 
 .numbers p {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .custom-main-section-five {
@@ -393,6 +396,7 @@ button {
 .custom-main-section-seven .float-container-three p {
   font-size: 18px;
 }
+
 
 footer {
   height: auto;
@@ -476,9 +480,14 @@ footer p {
 }
 
 @media screen and (max-width: 558px) {
+  main {
+    gap: 30px;
+  }
+
   .custom-main-section-six .float-container-two img {
     width: 28rem;
   }
+
 }
 
 @media screen and (max-width: 344px) {
@@ -496,9 +505,9 @@ footer p {
   }
 }
 
-@media screen and (max-width: 558px) {
-  .custom-main-section-six .float-container-two img {
-    width: 28rem;
+@media (min-width: 658px) and (max-width: 991px) {
+  section.custom-main-section-one p {
+    width: 70%;
   }
 }
 
@@ -588,7 +597,10 @@ footer p {
   }
 
   .custom-main-section-one p {
+    font-size: 18px;
+    width: 100%;
     padding-bottom: 20px;
+    width: 95%;
   }
 
   .custom-main-section-three {
@@ -655,6 +667,18 @@ footer p {
   .custom-footer-section-one {
     gap: 5vh;
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1051px) {
+  section.custom-main-section-one {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1580px) {
+  section.custom-main-section-one {
+    padding: 0 12rem;
   }
 }
 
@@ -739,31 +763,12 @@ footer p {
   }
 }
 
-@media screen and (min-width: 2721px) {
-  header {
-    justify-content: space-between;
-    height: 70vh;
+@media screen and (min-width: 1901px) {
+  section.custom-main-section-one {
+    padding: 0 20vw;
   }
 
-  header .nav-item {
-    font-size: 20px;
-    padding: 30px 100px;
-  }
-
-  header .custom-font-size-title {
-    font-size: 5rem;
-  }
-
-  .fs-md-1.text-center.text-md-center.text-lg-start.fw-normal.text-sm-center.custom-font-size-paragraph {
-    font-size: 1.5rem;
-  }
-
-  header .button,
-  .custom-main-section-four .button {
-    font-size: 20px;
-  }
-
-  .contact p {
-    font-size: 1.6rem;
+  section.custom-main-section-two {
+    bottom: 3rem;
   }
 }
