@@ -1,3 +1,7 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 header {
   height: auto;
   background-image: url('../images/imagem-header.png');
@@ -40,7 +44,6 @@ header .custom-font-size-title {
 a.nav-link {
   font-weight: 800;
   color: #0e1c39;
-  font-size: 700;
 }
 
 .nav-bar {
@@ -203,7 +206,7 @@ button {
 
 .card {
   height: 120px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -247,7 +250,7 @@ button {
 
 .number {
   color: #00ffd3;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .number:hover {
