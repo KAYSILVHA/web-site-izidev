@@ -5,6 +5,7 @@
 header {
   height: auto;
   background-image: url('../images/imagem-header.png');
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -383,6 +384,7 @@ button {
   height: 400px;
   background-image: url('../images/banner-final.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   top: 10rem;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
