@@ -762,13 +762,3 @@ footer p {
     width: 23rem;
   }
 }
-
-@media screen and (min-width: 1901px) {
-  section.custom-main-section-one {
-    padding: 0 20vw;
-  }
-
-  section.custom-main-section-two {
-    bottom: 3rem;
-  }
-}
