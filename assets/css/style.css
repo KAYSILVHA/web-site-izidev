@@ -758,9 +758,15 @@ footer p {
   }
 }
 
+@media (min-width: 1580px) and (max-width: 1684px) {
+  section.custom-main-section-one {
+    padding: 0 8vw;
+  }
+}
+
 @media (max-width: 2685px) and (min-width: 2527px) {
   section.custom-main-section-one {
-    padding: 0 23vw;
+    padding: 0 24vw;
   }
 }
 
