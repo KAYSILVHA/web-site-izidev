@@ -373,7 +373,7 @@ button {
 }
 
 .custom-main-section-seven .float-container-three {
-  width: 66.70vw;
+  width: 70vw;
   border-radius: 1rem;
   height: 400px;
   background-image: url('../images/banner-final.png');
@@ -667,7 +667,7 @@ footer p {
 
 @media screen and (min-width: 1051px) {
   section.custom-main-section-one {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 
