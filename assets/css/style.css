@@ -200,7 +200,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.custom-cards .row{
+.custom-cards .row {
   width: 66vw;
 }
 
@@ -424,7 +424,7 @@ footer p {
   }
 
   header .custom-font-size-title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   div.col-md-4.custom-line {
@@ -438,6 +438,12 @@ footer p {
 
   main .info h2 {
     font-size: 1.8rem;
+  }
+
+  main .section-two-custom-info,
+  main .custom-main-section-two,
+  main .custom-info-two {
+    padding: 0;
   }
 
   .custom-main-section-four .float-container-one,
@@ -470,6 +476,7 @@ footer p {
 
   footer p {
     font-size: 10px;
+    text-align: center;
   }
 
 }
@@ -487,7 +494,7 @@ footer p {
 
 @media screen and (max-width: 344px) {
   header .custom-font-size-title {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .custom-section-header-two .button {
@@ -498,6 +505,15 @@ footer p {
   .custom-main-section-six .float-container-two .img {
     width: 12rem;
   }
+
+  .custom-section-header-two p {
+    font-size: 1.1rem;
+  }
+
+  .custom-main-section-two h2 {
+    width: 98vw;
+  }
+
 
   .card p {
     font-size: 15px;
