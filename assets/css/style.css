@@ -201,7 +201,7 @@ button {
 }
 
 .custom-cards .row{
-  width: 67vw;
+  width: 66vw;
 }
 
 .card {
@@ -259,7 +259,7 @@ button {
 
 .custom-main-section-four .float-container-one {
   height: auto;
-  width: 66vw;
+  width: 65vw;
   padding: 10px 50px 0;
   background-color: #0A1730;
   border-radius: 1rem;
@@ -345,7 +345,7 @@ button {
 }
 
 .custom-main-section-six .float-container-two {
-  width: 66vw;
+  width: 65vw;
   background-color: #00ffd3;
   height: 400px;
   padding: 20px;
@@ -377,7 +377,7 @@ button {
 }
 
 .custom-main-section-seven .float-container-three {
-  width: 66vw;
+  width: 65vw;
   border-radius: 1rem;
   height: 400px;
   background-image: url('../images/banner-final.png');
@@ -789,7 +789,7 @@ footer p {
 
 @media (max-width: 2684px) and (min-width: 2196px) {
   section.custom-main-section-one {
-    padding: 0 22vw;
+    padding: 0 23vw;
   }
 }
 
